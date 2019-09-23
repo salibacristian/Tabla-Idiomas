@@ -1,0 +1,20 @@
+<div *ngIf='showSplash' class="base">
+  <div class="center">
+  </div>
+</div>
+<ion-toolbar color="danger">
+  <ion-avatar slot="start" class="izquierda" (click)='cambiarIdioma()'>
+    <img [src]="idioma">
+  </ion-avatar>
+  <ion-title text-center>
+    {{titulo}}
+  </ion-title>
+  <ion-button slot="end" fill="clear" color="light" (click)='LogOut()'>
+    <ion-icon name="log-out"></ion-icon>
+  </ion-button>
+</ion-toolbar>
+
+
+<ion-content>
+  <ion-router-outlet></ion-router-outlet>
+</ion-content>

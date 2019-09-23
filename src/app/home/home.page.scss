@@ -1,0 +1,80 @@
+.welcome-card ion-img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+@media only screen and (min-width: 451px) {
+  .numero{
+    height: 85%;
+    background-image: url("../../assets/icon/numeros.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .animal{
+    height: 85%;
+    background-image: url("../../assets/icon/animales.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .color{
+    height: 85%;
+    background-image: url("../../assets/icon/colores.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .home{
+    height: 100%;
+    width: 33%;
+    border-style: solid;
+    border-color: black;
+    background-image: url("../../assets/icon/homebase.png");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+  }
+  
+}
+
+@media only screen and (max-width: 450px) {
+  .numero{
+    height: 100%;
+    background-image: url("../../assets/icon/numeros.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .animal{
+    height: 85%;
+    background-image: url("../../assets/icon/animales.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .color{
+    height: 85%;
+
+    background-image: url("../../assets/icon/colores.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .home{
+    height: 30%;
+    border-style: solid;
+    border-color: black;
+    background-image: url("../../assets/icon/homebase.png");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+

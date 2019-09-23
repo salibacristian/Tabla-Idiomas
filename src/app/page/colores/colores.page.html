@@ -1,0 +1,70 @@
+<div style="height: 100%;">
+  <ion-row >
+    <ion-col>
+      <ion-button (click)="Seleccionar('1')" class="boton" [color]="color==1 ? 'light':'medium'">
+        <div class="circulo rojo"></div>
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="Seleccionar('2')" class="boton" [color]="color==2 ? 'light':'medium'">
+        <div class="circulo amarillo"></div>
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="Seleccionar('3')" class="boton" [color]="color==3 ? 'light':'medium'">
+        <div class="circulo azul"></div>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row class="back">
+    <ion-col>
+      <ion-button (click)="Seleccionar('4')" class="boton" [color]="color==4 ? 'light':'medium'">
+        <div class="circulo negro"></div>
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="Seleccionar('5')" class="boton" [color]="color==5 ? 'light':'medium'">
+        <div class="circulo blanco"></div>
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="Seleccionar('6')" class="boton" [color]="color==6 ? 'light':'medium'">
+        <div class="circulo verde"></div>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row class="back">
+    <ion-col>
+      <ion-button (click)="Seleccionar('7')" class="boton" [color]="color==7 ? 'light':'medium'">
+        <div class="circulo naranja"></div>
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="Seleccionar('8')" class="boton" [color]="color==8 ? 'light':'medium'">
+        <div class="circulo violeta"></div>
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="Seleccionar('9')" class="boton" [color]="color==9 ? 'light':'medium'">
+        <div class="circulo marron"></div>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row class="back">
+    <ion-col>
+      <ion-button (click)="Home()" class="boton" color="dark">
+          <ion-icon color='danger' slot="icon-only" name="arrow-round-back"></ion-icon>
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="Seleccionar('0')" class="boton" [color]="color==0 ? 'light':'medium'">
+        <div class="circulo rosa"></div>
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="Escuchar()" class="boton" color="dark">
+          <ion-icon color='success' slot="icon-only" name="volume-high"></ion-icon>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+</div>
