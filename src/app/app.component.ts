@@ -14,8 +14,8 @@ import { Router } from '@angular/router';
 export class AppComponent {
 
   showSplash = true;
-  titulo = 'Tabla Didactica';
-  idioma='../assets/icon/frances.png';
+  titulo = 'Tabla Didáctica';
+  idioma='../assets/icon/españa.png';
   idiomas=[
     {
       'foto':'../assets/icon/portugal.png',
