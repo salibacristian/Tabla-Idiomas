@@ -28,7 +28,7 @@ export class LogInPage implements OnInit {
   }
 
   Rellenar(usr, password){
-    this.email=usr+"@gmail.com";
+    this.email=usr+"@"+usr+".com";
     this.password = password;
   }
 

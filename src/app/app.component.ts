@@ -18,16 +18,16 @@ export class AppComponent {
   idioma='../assets/icon/frances.png';
   idiomas=[
     {
-      'foto':'../assets/icon/frances.png',
-      'idioma':'frances'
+      'foto':'../assets/icon/portugal.png',
+      'idioma':'portugues'
     },
     {
       'foto':'../assets/icon/inglaterra.png',
       'idioma':'ingles'
     },
     {
-      'foto':'../assets/icon/argentina.jpg',
-      'idioma':'argentino'
+      'foto':'../assets/icon/españa.png',
+      'idioma':'español'
     }
   ]
 
@@ -49,7 +49,7 @@ export class AppComponent {
       this.splashScreen.hide();
       timer(3000).subscribe(()=>{this.showSplash=false;})
     });
-    localStorage.setItem('idioma','frances')
+    localStorage.setItem('idioma','español')
   }
   
 
