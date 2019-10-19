@@ -1,6 +1,19 @@
+<ion-fab class="idiomas" horizontal="end" vertical="top" slot="fixed" edge>
+    <ion-fab-button>
+      <img [src]="idioma" style="height: 100%;">
+    </ion-fab-button>
+    <ion-fab-list>
+      <ion-fab-button color="light" *ngFor="let i of idiomas" (click)="cambiarIdioma(i)">
+        <img [src]="i.foto" style="height: 100%;">
+      </ion-fab-button>          
+    </ion-fab-list>
+  </ion-fab>
 <div style="height: 100%;">
+    
   <ion-row >
+      
     <ion-col>
+       
       <ion-button (click)="Seleccionar('1')" class="boton" [color]="animal==1 ? 'light':'medium'">
         <h1>🐈</h1>
       </ion-button>
