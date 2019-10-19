@@ -43,42 +43,42 @@
         </ion-label>
 
       </ion-item>
-      <ion-item >
-        <ion-label>
-        <ion-button expand="full" (click)='Rellenar("admin",111111)' color='danger'>
-          <ion-icon slot="start" name="person"></ion-icon>
-          Administrador
-        </ion-button>
-      </ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-label>
-        <ion-button expand="full" (click)='Rellenar("tester",555555)' color='danger'>
-          <ion-icon slot="start" name="person"></ion-icon>
-          Testeador
-        </ion-button>
-      </ion-label>
-      <ion-label>
-        <ion-button expand="full" (click)='Rellenar("invitado",222222)' color='danger'>
-          <ion-icon slot="start" name="person"></ion-icon>
-          Invitado
-        </ion-button>
-      </ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-label>
-        <ion-button expand="full" (click)='Rellenar("usuario",333333)' color='danger'>
-          <ion-icon slot="start" name="person"></ion-icon>
-          Usuario
-        </ion-button>
-      </ion-label>
-      <ion-label>
-        <ion-button expand="full" (click)='Rellenar("anonimo",444444)' color='danger'>
-          <ion-icon slot="start" name="person"></ion-icon>
-          Anonimo
-        </ion-button>
-      </ion-label>
-    </ion-item>
+      <ion-item>
+        <ion-chip class="chip" color="primary" expand="full" (click)='Rellenar("admin",111111)'>
+          <ion-avatar>
+            <img src="../../assets/icon/user.png">
+          </ion-avatar>
+          <ion-label>Administrador</ion-label>
+        </ion-chip>
+      </ion-item>
+      <ion-item>
+        <ion-chip class="chip" color="danger" expand="full" (click)='Rellenar("tester",555555)'>
+          <ion-avatar>
+            <img src="../../assets/icon/user.png">
+          </ion-avatar>
+          <ion-label>Testeador</ion-label>
+        </ion-chip>
+        <ion-chip class="chip" color="danger" expand="full" (click)='Rellenar("invitado",222222)'>
+          <ion-avatar>
+            <img src="../../assets/icon/user.png">
+          </ion-avatar>
+          <ion-label>Invitado</ion-label>
+        </ion-chip>
+      </ion-item>
+      <ion-item>
+        <ion-chip class="chip" color="success" expand="full" (click)='Rellenar("usuario",333333)'>
+          <ion-avatar>
+            <img src="../../assets/icon/user.png">
+          </ion-avatar>
+          <ion-label>Usuario</ion-label>
+        </ion-chip>
+        <ion-chip class="chip" color="success" expand="full" (click)='Rellenar("anonimo",444444)'>
+          <ion-avatar>
+            <img src="../../assets/icon/user.png">
+          </ion-avatar>
+          <ion-label>Anonimo</ion-label>
+        </ion-chip>
+      </ion-item>
     </ion-card-content>
   </ion-card>
 </ion-content>
