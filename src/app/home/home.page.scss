@@ -5,26 +5,29 @@
 @media only screen and (min-width: 451px) {
   .numero{
     height: 85%;
-    background-image: url("../../assets/icon/numeros.png");
+    background-image: url("../../assets/icon/numeros.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    // height: 100%;
   }
 
   .animal{
     height: 85%;
-    background-image: url("../../assets/icon/animales.png");
+    background-image: url("../../assets/icon/animales.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    // height: 100%;
   }
 
   .color{
     height: 85%;
-    background-image: url("../../assets/icon/colores.png");
+    background-image: url("../../assets/icon/colores.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    // height: 100%;
   }
   .home{
     height: 100%;
@@ -37,6 +40,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     float:left;
+    // height: 100%;
   }
   
 }
@@ -44,27 +48,30 @@
 @media only screen and (max-width: 450px) {
   .numero{
     height: 100%;
-    background-image: url("../../assets/icon/numeros.png");
+    background-image: url("../../assets/icon/numeros.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
   }
 
   .animal{
     height: 85%;
-    background-image: url("../../assets/icon/animales.png");
+    background-image: url("../../assets/icon/animales.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
   }
 
   .color{
     height: 85%;
 
-    background-image: url("../../assets/icon/colores.png");
+    background-image: url("../../assets/icon/colores.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
   }
   .home{
     height: 30%;
@@ -75,6 +82,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    // height: 100%;
   }
 }
 
