@@ -52,10 +52,9 @@ export class AnimalesPage implements OnInit {
 
   Seleccionar(animal){
     this.animal=animal;
-  }
-
-  Escuchar(){
     let idioma = localStorage.getItem('idioma');
     this.nativeAudio.play(idioma, this.animal, "animales");
   }
+
+  
 }

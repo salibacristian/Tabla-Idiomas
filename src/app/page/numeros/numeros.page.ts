@@ -52,11 +52,9 @@ export class NumerosPage implements OnInit {
 
   Seleccionar(numero){
     this.numero=numero;
-  }
-
-  Escuchar(){
     let idioma = localStorage.getItem('idioma');
     this.nativeAudio.play(idioma, this.numero, "numeros");
-
   }
+
+
 }

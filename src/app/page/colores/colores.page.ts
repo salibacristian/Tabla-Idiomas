@@ -52,11 +52,9 @@ export class ColoresPage implements OnInit {
 
   Seleccionar(color){
     this.color=color;
-  }
-
-  Escuchar(){
     let idioma = localStorage.getItem('idioma');
     this.nativeAudio.play(idioma, this.color, "colores");
-
   }
+
+ 
 }

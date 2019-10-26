@@ -9,6 +9,19 @@
     </ion-fab-list>
   </ion-fab>
 <div style="height: 100%;">
+    <ion-row class="back">
+        <ion-col>
+          <ion-button (click)="Home()" class="boton" color="medium">
+              <ion-icon color='primary' slot="icon-only" name="arrow-round-back"></ion-icon>
+          </ion-button>
+        </ion-col>
+    <!--    
+        <ion-col>
+          <ion-button (click)="Escuchar()" class="boton" color="medium">
+              <ion-icon color='primary' slot="icon-only" name="volume-high"></ion-icon>
+          </ion-button>
+        </ion-col> -->
+      </ion-row>
   <ion-row >
     <ion-col>
       <ion-button (click)="Seleccionar('1')" class="boton" [color]="color==1 ? 'light':'medium'">
@@ -20,18 +33,22 @@
         <div class="circulo amarillo"></div>
       </ion-button>
     </ion-col>
+  </ion-row>
+    <ion-row class="back">
     <ion-col>
       <ion-button (click)="Seleccionar('3')" class="boton" [color]="color==3 ? 'light':'medium'">
         <div class="circulo azul"></div>
       </ion-button>
     </ion-col>
-  </ion-row>
-  <ion-row class="back">
+  
+  
     <ion-col>
       <ion-button (click)="Seleccionar('4')" class="boton" [color]="color==4 ? 'light':'medium'">
         <div class="circulo negro"></div>
       </ion-button>
     </ion-col>
+  </ion-row>
+  <ion-row>
     <ion-col>
       <ion-button (click)="Seleccionar('5')" class="boton" [color]="color==5 ? 'light':'medium'">
         <div class="circulo blanco"></div>
@@ -42,17 +59,5 @@
   
     
   
-  <ion-row class="back">
-    <ion-col>
-      <ion-button (click)="Home()" class="boton" color="medium">
-          <ion-icon color='primary' slot="icon-only" name="arrow-round-back"></ion-icon>
-      </ion-button>
-    </ion-col>
-   
-    <ion-col>
-      <ion-button (click)="Escuchar()" class="boton" color="medium">
-          <ion-icon color='primary' slot="icon-only" name="volume-high"></ion-icon>
-      </ion-button>
-    </ion-col>
-  </ion-row>
+ 
 </div>

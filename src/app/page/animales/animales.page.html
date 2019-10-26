@@ -13,10 +13,10 @@
   <ion-row >
       
     <ion-col>
-       
-      <ion-button (click)="Seleccionar('1')" class="boton" [color]="animal==1 ? 'light':'medium'">
-        <h1>🐈</h1>
-      </ion-button>
+        <ion-button (click)="Home()" class="boton" color="medium">
+            <ion-icon color='primary' slot="icon-only" name="arrow-round-back"></ion-icon>
+        </ion-button>
+      
     </ion-col>
   </ion-row>
   <ion-row class="back">
@@ -25,37 +25,39 @@
         <h1>🐘</h1>
       </ion-button>
     </ion-col>
-  
+    <ion-col>
+        <ion-button (click)="Seleccionar('3')" class="boton" [color]="animal==3 ? 'light':'medium'">
+          <h1>🐕</h1>
+        </ion-button>
+      </ion-col>
    
   </ion-row>
   <ion-row class="back">
-    <ion-col>
-      <ion-button (click)="Seleccionar('3')" class="boton" [color]="animal==3 ? 'light':'medium'">
-        <h1>🐕</h1>
-      </ion-button>
-    </ion-col>
+   
    
     <ion-col>
       <ion-button (click)="Seleccionar('4')" class="boton" [color]="animal==4 ? 'light':'medium'">
         <h1>🦈</h1>
       </ion-button>
     </ion-col>
+    <ion-col>
+        <ion-button (click)="Seleccionar('1')" class="boton" [color]="animal==1 ? 'light':'medium'">
+            <h1>🐈</h1>
+          </ion-button>
+      
+    </ion-col>
   </ion-row>
   <ion-row class="back">
-    <ion-col>
-      <ion-button (click)="Home()" class="boton" color="medium">
-          <ion-icon color='primary' slot="icon-only" name="arrow-round-back"></ion-icon>
-      </ion-button>
-    </ion-col>
+    
     <ion-col>
       <ion-button (click)="Seleccionar('5')" class="boton" [color]="animal==5 ? 'light':'medium'">
         <h1>🐒</h1>
       </ion-button>
     </ion-col>
-    <ion-col>
+    <!-- <ion-col>
       <ion-button (click)="Escuchar()" class="boton" color="medium">
           <ion-icon color='primary' slot="icon-only" name="volume-high"></ion-icon>
       </ion-button>
-    </ion-col>
+    </ion-col> -->
   </ion-row>
 </div>

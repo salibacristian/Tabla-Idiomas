@@ -9,6 +9,23 @@
     </ion-fab-list>
   </ion-fab>
 <div style="height: 100%;">
+    <ion-row class="back">
+        <ion-col>
+          <ion-button (click)="Home()" class="boton" color="medium">
+              <ion-icon color='primary' slot="icon-only" name="arrow-round-back"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <!-- <ion-col>
+          <ion-button (click)="Seleccionar('0')" class="boton" [color]="numero==0 ? 'warning':'medium'">
+            <h1>0</h1>
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="Escuchar()" class="boton" color="medium">
+              <ion-icon color='primary' slot="icon-only" name="volume-high"></ion-icon>
+          </ion-button>
+        </ion-col> -->
+      </ion-row>
   <ion-row >
     <ion-col>
       <ion-button (click)="Seleccionar('1')" class="boton" [color]="numero==1 ? 'warning':'medium'">
@@ -60,21 +77,5 @@
       </ion-button>
     </ion-col>
   </ion-row>
-  <ion-row class="back">
-    <ion-col>
-      <ion-button (click)="Home()" class="boton" color="medium">
-          <ion-icon color='primary' slot="icon-only" name="arrow-round-back"></ion-icon>
-      </ion-button>
-    </ion-col>
-    <ion-col>
-      <ion-button (click)="Seleccionar('0')" class="boton" [color]="numero==0 ? 'warning':'medium'">
-        <h1>0</h1>
-      </ion-button>
-    </ion-col>
-    <ion-col>
-      <ion-button (click)="Escuchar()" class="boton" color="medium">
-          <ion-icon color='primary' slot="icon-only" name="volume-high"></ion-icon>
-      </ion-button>
-    </ion-col>
-  </ion-row>
+  
 </div>
